@@ -3,9 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Git Clone - Flex Direction</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      a {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+        color: #0073e6;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        color: #005bb5;
+        text-align: justify;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: column; /* Change to row, row-reverse, column-reverse */
+        background-color: lightgray;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .flex-item {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>clone repository</h1>
+    <h1>Jorge Herrera & Alana Daniele</h1>
+    <a target="_blank" href="https://github.com/jorge-lherrera"
+      >GitHub: Jorge Herrera</a
+    >
+    <a target="_blank" href="https://github.com/a-natureza"
+      >GitHub: Alana Daniele</a
+    >
+    <div class="flex-container">
+      <div class="flex-item">
+        <h2>Criação do Repositório</h2>
+        <p>
+          Crie um repositório no GitHub e compartilhe com seu colega. Ambos
+          devem fazer modificações e commits no repositório.
+        </p>
+      </div>
+      <div class="flex-item">
+        <h2>Modificações e Commits</h2>
+        <p>
+          Cada colaborador deve fazer modificações no projeto, adicionar novos
+          arquivos ou atualizar os existentes, e fazer commits para registrar as
+          mudanças no histórico do repositório.
+        </p>
+      </div>
+      <div class="flex-item">
+        <h2>Resolução de Conflitos</h2>
+        <p>
+          Ao trabalhar em um projeto colaborativo, podem surgir conflitos de
+          merge. Resolva esses conflitos de maneira colaborativa, garantindo que
+          as modificações de ambos os colaboradores sejam integradas
+          corretamente.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
